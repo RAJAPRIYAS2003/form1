@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form>
+                
+                <h2>STUDENT REGISTRATION</h2>
+                <br>
+                <div class="vv">
+                <i class="fa-solid fa-user"></i> <label for="fname">Firstname:</label>
+                <input type="text" placeholder="Enter name" >
+                <BR>
+                    <br>
+                <i class="fa-solid fa-lock"></i> <label for="password">password:</label>
+                <input type="password" placeholder="password" required>
+                <br>
+                <br>
+                <i class="fa-solid fa-calendar-days"></i> <label for="dob">Date-of-Birth:</label>
+                <input type="datetime-local">
+                <br>
+                <br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Gender">Gender
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email">
+                <br>
+                <br>
+                <label for="languages">Languages:</label>
+                <input type="checkbox" name="languages" value="c" checked>c  
+                <input type="checkbox" name="languages" value="c++">c++
+                <input type="checkbox"  name="languages" value="java">java
+                <br>
+                <br>
+                <i class="fa-solid fa-house"></i> <label for="ADDRESS">Address:</label>
+                <input type="text">
+                <br>
+                <br>
+                <i class="fa-duotone fa-phone"></i> <label for="native place">Phone:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="department">Department:</label><select>
+                    <option name="department" value="ECE">ECE</option>
+                    <option name="department "value="CSE">CSE</option>
+                    <option name="department" value="IT">IT</option>
+                    <option name="department" value="MECH">MECH</option>
+                    <option  name="department"value="B.SC">B.SC</option>
+                    <option  name="department" value="BA">BA</option>
+                </select>
+                <br>
+                <br>
+                <label for="comments">Comments:</label>
+                <textarea rows="2" cols="40">Welcome!!!</textarea>
+                <br>
+                <br>
+                <label for="upload resume">Upload Resume:</label>
+                <input type="file">
+                <br>
+                <br>
+                <i class="fa-solid fa-house-heart"></i> <label for="District">District:</label><select>
+                    <option name="District" value="cuddlore">cuddlore</option>
+                    <option name="District" value="Ariyalur">Tamilnadu</option>
+                    <option name="District" value="trichy">Trichy</option>
+                </select>
+                <br>
+                <br>
+                <label for="caste">Caste:</label><select>
+                    <option name="caste" value="MBC">MBC</option>
+                    <option name="caste" value="OC">OC</option>
+                    <option name="caste" value="SC">SC</option>
+                    <option name="caste" value="BC">BC</option>
+                </select>
+                <BR>
+                <br>
+                <input type="reset">
+                <button>Submit</button>
+                </div>
+
+            </form>
+
+    </div>
+</body>
+</html>
